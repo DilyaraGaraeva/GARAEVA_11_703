@@ -19,6 +19,7 @@ public class Zad10 {
         System.out.println(sum);
 
     }
+   // никуда не годится
 
 
 }
