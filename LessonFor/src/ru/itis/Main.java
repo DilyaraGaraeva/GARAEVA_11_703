@@ -11,7 +11,7 @@ public class Main {
         int b = scanner.nextInt();
 
         //int i=a;
-//        while (i<=b) {
+//        while (i<=b) {a   `````````````````````````````````````````````````````````````
 //            System.out.print(i + " ");
 //            i++;
 //        }
@@ -19,5 +19,5 @@ public class Main {
     for (int i =a ; i<=b; i++) {
         System.out.print(i + " ");
     }
-        
+
 }}
