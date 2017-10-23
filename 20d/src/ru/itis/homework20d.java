@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//+
 import java.util.Scanner;
 public class homework20d {
     public static void main(String[] args) {
