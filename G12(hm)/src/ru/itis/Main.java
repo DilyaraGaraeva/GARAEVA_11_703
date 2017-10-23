@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 
 import java.util.Scanner;
 
@@ -13,8 +13,8 @@ public class Main {
         x = a.nextInt();
         while (Math.abs(t)>eps){
             g = g + t;
-            t = t*(-1)*m/(2*n);
-            m = m*x*x;
+            t = t*(-1)*m/(2*n);//неверная формула
+            m = m*x*x; //плохо
             n++;
             System.out.println(n);
         }
