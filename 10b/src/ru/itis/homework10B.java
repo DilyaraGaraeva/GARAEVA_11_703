@@ -1,4 +1,4 @@
-package ru.itis;
+package ru.itis;//-
 import java.util.Scanner;
 public class homework10B {
     static Scanner in = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class homework10B {
         double t = x - 0.1, sum = 0;
 
         for (int k = 2; k <= n; k++) {
-            t *= (x * x * x * x) / ((2 * (double)k -1) * (2 * (double)k) * (4 * (double)k + 1));
+            t *= (x * x * x * x) / ((2 * (double)k -1) * (2 * (double)k) * (4 * (double)k + 1));//неверная формула
             sum = sum + (t * p);
             p = -p;
         }
